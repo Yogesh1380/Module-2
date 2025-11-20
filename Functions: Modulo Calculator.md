@@ -1,4 +1,5 @@
-# Functions in Python: Modulo Calculator
+
+# 2B : Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
 To write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator.
@@ -11,9 +12,16 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+```python
+def result(a, b):
+    print("Modulo is:", a % b)
 
-Add code Here
-
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+result(x, y)
+```
 ## Output
-
-## Result
+![image](https://github.com/user-attachments/assets/c7fade8a-0d6a-4138-b796-cf2f2d7398ba)
+## Result:
+The program successfully defines and uses a function
+to calculate the modulo of two numbers.
